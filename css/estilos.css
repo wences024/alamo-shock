@@ -16,3 +16,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+.textobienvenido{
+  text-align : justify;
+  padding-top: 3%;
+}
