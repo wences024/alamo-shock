@@ -1,0 +1,18 @@
+.textostile{
+  color: rgb(0, 0, 0);
+  
+}
+.textostile:hover{
+  color: rgb(0, 0, 0);
+}
+.barra{
+  background-color: rgb(249, 250, 249)
+}
+.imgsize{
+
+  padding-top: 1%;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
