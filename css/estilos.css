@@ -16,6 +16,17 @@
   margin-left: auto;
   margin-right: auto;
 }
+.imgsize2{
+
+  padding-top: 1%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imgsizex{
+  width: 100%;
+}
 .textobienvenido{
   text-align : justify;
   padding-top: 3%;
@@ -38,4 +49,26 @@
 }
 .hr{
   height:100px:
+}
+
+.textocabina{
+  text-align : justify;
+  padding-top: 5%;
+  color: rgb(110, 114, 110);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imgsizecontrol{
+  
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.imgsize3{
+  width: 120%;
+}
+
+.margenn{
+  padding-bottom: 6%;
 }
