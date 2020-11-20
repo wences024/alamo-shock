@@ -1,292 +1,673 @@
 <!doctype html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Alamo Shock Pool Recording</title>
-	
-	<!-- PluginJS -> Fancybox -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Alamo Shock Pool Recording</title>
 
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-	
-	<!-- Animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    
-    <!-- bostrapp-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- PluginJS -> Fancybox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- bostrapp-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
 
 
-	<!-- Animate on Scroll -->
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Animate on Scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <link rel="stylesheet" href="css/estilos.css">
-    <!-- Animate on carousel -->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-	
+  <link rel="stylesheet" href="css/estilos.css">
+  <!-- Animate on carousel -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
 </head>
-<body>
-    <!-- navbar -->
-    <div class="container-fluid">
-        <div class="nav  barra">
-            <div class="container pos">
-                <nav class="navbar">
-                    <a class="navbar-brand textostile " href="#">Inicio</a>
-                    <li class="nav-item dropdown textostile">
-                        <a class="nav-link dropdown-toggle textostile" href="#" id="navbarDropdownMenliink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            El Estudio 
-                        </a>
-                        <div class="dropdown-menu textostile" aria-labelledby="navbarDropdownMenliink">
-                        <a class="dropdown-item " href="#"> Sala de Control</a>
-                          <a class="dropdown-item" href="#">Cabinas</a>
-                          <a class="dropdown-item" href="#">Equipamiento</a>
-                        </div>
-                      </li>
-                      <li class="nav-item dropdown textostile">
-                        <a class="nav-link dropdown-toggle textostile" href="#" id="navbarDropdownMenliink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Alojamiento y Entorno 
-                        </a>
-                        <div class="dropdown-menu textostile" aria-labelledby="navbarDropdownMenliink">
-                        <a class="dropdown-item " href="#"> Alojamiento</a>
-                          <a class="dropdown-item" href="#">Cafeteria</a>
-                          <a class="dropdown-item" href="#">Cocina</a>
-                        </div>
-                      </li>
-                      
 
-                      <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle textostile" href="#" id="navbarDropdownMenliink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Nuestros trabajos
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenliink">
-                          <a class="dropdown-item" href="#">Artistas con los que trabajamos</a>
-                          <a class="dropdown-item" href="https://open.spotify.com/playlist/3GRPcviNPXhJFjtpCKv9Hj?si=ohxH_V1TQqKYTgeLweUYXg">Algunos de nuestros trabajos</a>
-                          <a class="dropdown-item" href="#">Cocina</a>
-                          <a class="dropdown-item" href="#">Alojamiento y Entorno</a>
-                        </div>
-                      </li>
-                      <a class="navbar-brand textostile" href="#">Contacto</a>
-                  </nav>
-                  
+<body>
+  <!-- navbar -->
+  <div class="container-fluid">
+    <div class="nav  barra">
+      <div class="container pos">
+        <nav class="navbar">
+          <a class="navbar-brand textostile " href="#">Inicio</a>
+          <li class="nav-item dropdown textostile">
+            <a class="nav-link dropdown-toggle textostile" href="#" id="navbarDropdownMenliink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              El Estudio
+            </a>
+            <div class="dropdown-menu textostile" aria-labelledby="navbarDropdownMenliink">
+              <a class="dropdown-item " href="#salacontrol"> Sala de Control</a>
+              <a class="dropdown-item" href="#cabinas">Cabinas</a>
+              <a class="dropdown-item" href="#equipamiento">Equipamiento</a>
             </div>
-        </div>
+          </li>
+          <li class="nav-item dropdown textostile">
+            <a class="nav-link dropdown-toggle textostile" href="#" id="navbarDropdownMenliink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Alojamiento y Entorno
+            </a>
+            <div class="dropdown-menu textostile" aria-labelledby="navbarDropdownMenliink">
+              <a class="dropdown-item " href="#alojamiento"> Alojamiento</a>
+              <a class="dropdown-item" href="#cafeteria">Cafeteria</a>
+              <a class="dropdown-item" href="#cocina">Cocina</a>
+              <a class="dropdown-item" href="#taller">Taller</a>
+              <a class="dropdown-item" href="#almacen">Almacén</a>
+            </div>
+          </li>
+
+
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle textostile" href="#" id="navbarDropdownMenliink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Nuestros trabajos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenliink">
+              <a class="dropdown-item" href="#">Artistas con los que trabajamos</a>
+              <a class="dropdown-item"
+                href="https://open.spotify.com/playlist/3GRPcviNPXhJFjtpCKv9Hj?si=ohxH_V1TQqKYTgeLweUYXg">Algunos de
+                nuestros trabajos</a>
+            </div>
+          </li>
+          <a class="navbar-brand textostile" href="#">Contacto</a>
+        </nav>
+
+      </div>
     </div>
-    <!-- carousel -->
-    
-<div class="fadess imgsize">
-    <div><img class="imgsize" src="img/logoblanco.png" alt=""></div>
-    <div><img  class="imgsize"src="img/control12.jpg" alt=""></div>
-    <div><img  class="imgsize"src="img/control5.jpg" alt=""></div>
   </div>
+
+
+
+
+
+  
+  <!-- carousel -->
+
+  <div class="fadess imgsize">
+    <div><img class="imgsize" src="img/logoblanco.png" alt=""></div>
+    <div><img class="imgsize" src="img/control12.jpg" alt=""></div>
+    <div><img class="imgsize" src="img/control5.jpg" alt=""></div>
+  </div>
+
   <!-- Quienes somos -->
+
   <div class="container">
-      <div class="row ">
-        <div class="col-6"> <h2 class="textobienvenido">Bienvenidos</h2>
-          <p class="textobienvenido">Alamo Shock combina estudio de grabación con equipo de primera calidad, alojamiento rural, trato cercano y restaurante privado con cocina casera y natural. Nuestra filosofía es hacer de la innecesariamente estresante labor de dejar registrada tu música una inolvidable y grata experiencia que volverás a evocar cada vez que escuches de nuevo tu trabajo. En este estudio lo primero es la música y nos empleamos a fondo para conseguir los mejores reslitados.
-            <br>
-            <br>
-            Nuestras instalaciones se encuentran en una casa construida en 2015, diseñada por nosotros mismos en la villa de El Álamo, situada a escasos treinta minutos del centro de Madrid, bien comunicada y de fácil acceso tanto en coche como en transporte público.
-            Registra tu obra en un entorno relajado, disfruta de nuestras sabrosas recetas hechas a base de ingredientes frescos, date un baño en la piscina y haz uso de nuestro exclusivo y amplio catálogo de auténticas piezas clásicas de equipo.
-            <br>
-            <br>
-            El estudio se compone de sala de control y tres cabinas de diferentes tamaños, zona de cafetería completamente equipada, taller de reparación y ajuste de instrumentos, amplia y luminosa cocina con vistas al campo y alojamiento para hasta seis personas en cómodas y completas habitaciones con piscina y salón.
-            <br>
-            <br>
-            Más de 500 m2 y los servicios de dos personas con amplia experiencia en el sector: Aitana Luis, encargada de logística, alojamiento y restaurante, y Guille Mostaza, productor, músico, compositor e ingeniero de sonido, están a tu disposición.</p>
+    <div class="row ">
+      <div class="col-6">
+        <h2 class="textobienvenido">Bienvenidos</h2>
+        <p class="textobienvenido">Alamo Shock combina estudio de grabación con equipo de primera calidad, alojamiento
+          rural, trato cercano y restaurante privado con cocina casera y natural. Nuestra filosofía es hacer de la
+          innecesariamente estresante labor de dejar registrada tu música una inolvidable y grata experiencia que
+          volverás a evocar cada vez que escuches de nuevo tu trabajo. En este estudio lo primero es la música y nos
+          empleamos a fondo para conseguir los mejores reslitados.
+          <br>
+          <br>
+          Nuestras instalaciones se encuentran en una casa construida en 2015, diseñada por nosotros mismos en la villa
+          de El Álamo, situada a escasos treinta minutos del centro de Madrid, bien comunicada y de fácil acceso tanto
+          en coche como en transporte público.
+          Registra tu obra en un entorno relajado, disfruta de nuestras sabrosas recetas hechas a base de ingredientes
+          frescos, date un baño en la piscina y haz uso de nuestro exclusivo y amplio catálogo de auténticas piezas
+          clásicas de equipo.
+          <br>
+          <br>
+          El estudio se compone de sala de control y tres cabinas de diferentes tamaños, zona de cafetería completamente
+          equipada, taller de reparación y ajuste de instrumentos, amplia y luminosa cocina con vistas al campo y
+          alojamiento para hasta seis personas en cómodas y completas habitaciones con piscina y salón.
+          <br>
+          <br>
+          Más de 500 m2 y los servicios de dos personas con amplia experiencia en el sector: Aitana Luis, encargada de
+          logística, alojamiento y restaurante, y Guille Mostaza, productor, músico, compositor e ingeniero de sonido,
+          están a tu disposición.</p>
       </div>
       <div class="col-6">
         <img class="imgsizebienvenido" src="img/controladoress.jpg" alt="">
       </div>
-         </div>
+    </div>
   </div>
   <hr>
- <!-- El Estudio -->
- <div class="container">
-  <div class="row ">
-     <h2 class="textobienvenido">El Estudio</h2>
-      <p class="textobienvenido"> Encontrarás un ambiente acogedor y cálido nada más cruzar la puerta. El estudio está cuidadosamente construido y diseñado para obtener la mejor acústica y confort posible. Se compone de varias estancias: </div>
-</div>
+  <!-- El Estudio -->
 
-<!-- Sala de control -->
-<div class="container">
-  <div class="row ">
-     <h5 class="textobienvenido">Sala de Control</h5>
-      <p class="textobienvenido"> El centro del estudio. Amplio y cómodo. En ella se encuentran todos los sintetizadores, controladores, racks, monitores y conexiones.
-         La preside una mesa analógica Trident 78 Custom Built, única en España. Diseñada en Londres y construida en Los Ángeles en marzo de 2019 a medida de nuestras 
-         necesidades, customizada con transformadores Lundhal y vúmetros clasicos añadidos. Esta maravilla añade la pegada y calidez que han hecho a Trident una de las
-          cuatro grandes marcas del mundo del audio. También confiamos nuestro sonido a la mlititud de equipo Neve, SSL, Api, Manley, Amek o Universal Audio entre otros. <br>
-        Para las labores de mezcla y mastering disponemos de diez escuchas diferentes, con sala absolutamente calibrada a respuesta de frecuencia plana, con los que nos 
-        aseguramos de que la música que sale de este estudio suene bien tanto en tu salón como en un club, en televisión o en un pequeño teléfono móvil. También mezclamos 
-        a 5.1 con nuestro sistema Genelec Smart Audio Monitoring, exactamente el mismo que montan en salas de mezcla de cine.
-        <br>
-        <br>
-        Todo el equipamiento está conectado mediante cables Mogami, sin duda los mejores del mercado, al patchbay lateral, un entramado de más de setecientas conexiones, con lo que todo el equipo está disponible de un sólo vistazo. 30m2 de paredes inclinadas, un confortable sofá, luces de color e intensidad regliable, aislamientos y refuerzos acústicos, difusores, trampas de graves y una gran alfombra entregan la mejor experiencia sonora. Está equipada con aire acondicionado propio, puerta acústica, dos visores y ventanas al exterior.</div>
-</div>
-<!-- Sala de control---carouseldoble -->
-<div class="fadess2 imgsizecontrol">
-  <div><img class="imgsize" src="img/salacontrol4.jpg" alt=""></div>
-  <div><img class="imgsize" src="img/salacontrol5.jpg" alt=""></div>
-  <div><img class="imgsize" src="img/salacontrol3.jpg" alt=""></div>
-  <div><img class="imgsize" src="img/salacontrol2.jpg" alt=""></div>
-  <div><img class="imgsize" src="img/salacontrol1.jpg" alt=""></div>
-  <div><img class="imgsize" src="img/salacontrol6.jpg" alt=""></div>
-</div>
-<!-- Cabinas I-->
 
-<div class="container">
-  <div class="row ">
-    <div class="col-12">
-     <h5 class="textocabina">Cabina I</h5>
-      <p class="textobienvenido">La sala grande está diseñada para ensayar o grabar cualquier instrumento o voz en la que se desee un mínimo de ambiente y reflexiones naturales. En esta habitación están las guitarras y bajos con sus respectivos amplificadores, batería y piano.
-        <br>
-        Está dotada de una mesa de mezclas secundaria de 20 canales con memorias, dos altavoces con subwofer y monitorización. Mide 30m2 y dispone también de puerta acústica, cajetín de 32 entradas, cortina acústica, aire acondicionado individual y ventanas al exterior.
-        
-      </p>
+  <div class="container">
+    <div class="row ">
+      <h2 class="textobienvenido">El Estudio</h2>
+      <p class="textobienvenido"> Encontrarás un ambiente acogedor y cálido nada más cruzar la puerta. El estudio está
+        cuidadosamente construido y diseñado para obtener la mejor acústica y confort posible. Se compone de varias
+        estancias:
+    </div>
   </div>
 
-        <!-- Cabinas I fotos-->
-        <div class="col-6"><img class="imgsizex" src="img/cabinai2.jpg" alt=""></div>
-        <div class="col-6"><img class="imgsize3" src="img/cabinai1.jpg" alt=""></div>
-          <img class="imgsize" src="img/cabinai3.jpg" alt="">
-        
+  <!-- Sala de control -->
 
-      </div>
-    </div>
-        <!-- Cabinas II-->
+  <div id="salacontrol"> </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-     <h5 class="textocabina">Cabina II</h5>
-      <p class="textobienvenido">Este habitáclio, totalmente acolchado y con una acústica seca, es perfecto para grabar voces. Está ideado para registrar instrumentos a los que luego se les quiera añadir reverberación o aire una vez grabados. Al dar a la sala de control también goza de luz natural, como todas nuestras estancias.
+  <div class="container">
+    <div class="row ">
+      <h5 class="textobienvenido">Sala de Control</h5>
+      <p class="textobienvenido"> El centro del estudio. Amplio y cómodo. En ella se encuentran todos los
+        sintetizadores, controladores, racks, monitores y conexiones.
+        La preside una mesa analógica Trident 78 Custom Built, única en España. Diseñada en Londres y construida en Los
+        Ángeles en marzo de 2019 a medida de nuestras
+        necesidades, customizada con transformadores Lundhal y vúmetros clasicos añadidos. Esta maravilla añade la
+        pegada y calidez que han hecho a Trident una de las
+        cuatro grandes marcas del mundo del audio. También confiamos nuestro sonido a la mlititud de equipo Neve, SSL,
+        Api, Manley, Amek o Universal Audio entre otros. <br>
+        Para las labores de mezcla y mastering disponemos de diez escuchas diferentes, con sala absolutamente calibrada
+        a respuesta de frecuencia plana, con los que nos
+        aseguramos de que la música que sale de este estudio suene bien tanto en tu salón como en un club, en televisión
+        o en un pequeño teléfono móvil. También mezclamos
+        a 5.1 con nuestro sistema Genelec Smart Audio Monitoring, exactamente el mismo que montan en salas de mezcla de
+        cine.
         <br>
-        Dispone de un cajetín de ocho entradas con lo que también está habilitada para grabar pequeños kits de batería con muy poco ambiente, grupos vocales o sets de percusión. También cuenta con una pantalla de televisión para poder hacer locuciones, doblar pelíclias o retransmitir eventos en directo por nuestra conexión a internet de fibra óptica.        </div>
-  
-        <!-- Cabinas II fotos-->
-        <div class="col-6"><img class="imgsize2" src="img/cabinaii2.jpg" alt=""></div>
-        <div class="col-6"><img class="imgsizex" src="img/cabinaii1.jpg" alt=""></div>
-         
-         
+        <br>
+        Todo el equipamiento está conectado mediante cables Mogami, sin duda los mejores del mercado, al patchbay
+        lateral, un entramado de más de setecientas conexiones, con lo que todo el equipo está disponible de un sólo
+        vistazo. 30m2 de paredes inclinadas, un confortable sofá, luces de color e intensidad regliable, aislamientos y
+        refuerzos acústicos, difusores, trampas de graves y una gran alfombra entregan la mejor experiencia sonora. Está
+        equipada con aire acondicionado propio, puerta acústica, dos visores y ventanas al exterior.
+    </div>
+  </div>
+  <!-- Sala de control---carouseldoble -->
+
+
+  <div class="fadess2 imgsizecontrol">
+    <div><img class="imgsize" src="img/salacontrol4.jpg" alt=""></div>
+    <div><img class="imgsize" src="img/salacontrol5.jpg" alt=""></div>
+    <div><img class="imgsize" src="img/salacontrol3.jpg" alt=""></div>
+    <div><img class="imgsize" src="img/salacontrol2.jpg" alt=""></div>
+    <div><img class="imgsize" src="img/salacontrol1.jpg" alt=""></div>
+    <div><img class="imgsize" src="img/salacontrol6.jpg" alt=""></div>
+  </div>
+
+
+  <!-- Cabinas I-->
+
+  <div id="cabinas"> </div>
+
+  <div class="container">
+    <div class="row ">
+      <div class="col-12">
+        <h5 class="textocabina">Cabina I</h5>
+        <p class="textobienvenido">La sala grande está diseñada para ensayar o grabar cualquier instrumento o voz en la
+          que se desee un mínimo de ambiente y reflexiones naturales. En esta habitación están las guitarras y bajos con
+          sus respectivos amplificadores, batería y piano.
+          <br>
+          Está dotada de una mesa de mezclas secundaria de 20 canales con memorias, dos altavoces con subwofer y
+          monitorización. Mide 30m2 y dispone también de puerta acústica, cajetín de 32 entradas, cortina acústica, aire
+          acondicionado individual y ventanas al exterior.
+
+        </p>
+      </div>
+
+      <!-- Cabinas I fotos-->
+      <div class="col-6"><img class="imgsizex" src="img/cabinai2.jpg" alt=""></div>
+      <div class="col-6"><img class="imgsize3" src="img/cabinai1.jpg" alt=""></div>
+      <img class="imgsize" src="img/cabinai3.jpg" alt="">
+
+
+    </div>
+  </div>
+  <!-- Cabinas II-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h5 class="textocabina">Cabina II</h5>
+        <p class="textobienvenido">Este habitáclio, totalmente acolchado y con una acústica seca, es perfecto para
+          grabar voces. Está ideado para registrar instrumentos a los que luego se les quiera añadir reverberación o
+          aire una vez grabados. Al dar a la sala de control también goza de luz natural, como todas nuestras estancias.
+          <br>
+          Dispone de un cajetín de ocho entradas con lo que también está habilitada para grabar pequeños kits de batería
+          con muy poco ambiente, grupos vocales o sets de percusión. También cuenta con una pantalla de televisión para
+          poder hacer locuciones, doblar pelíclias o retransmitir eventos en directo por nuestra conexión a internet de
+          fibra óptica.
+      </div>
+
+      <!-- Cabinas II fotos-->
+      <div class="col-6"><img class="imgsize2" src="img/cabinaii2.jpg" alt=""></div>
+      <div class="col-6"><img class="imgsizex" src="img/cabinaii1.jpg" alt=""></div>
+
+
+    </div>
+  </div>
+
+
+
+
+  <!-- Cabinas III-->
+
+  <div class="container margenn">
+    <div class="row">
+      <div class="col-12">
+        <h5 class="textocabina">Cabina III</h5>
+        <p class="textobienvenido">La cabina pequeña está diseñada para amplificadores de guitarra. Es especialmente
+          útil para grabar en directo, todos a la vez, y así poder recoger un sonido de guitarra más refinado. Es
+          fácilmente accesible ya que la puerta, inclinable para poder jugar con las reflexiones acústicas, da a la
+          cabina 1. También es donde guardamos todos nuestros micrófonos y pedales.
+          <br>
+          El estudio es muy flexible y permite varias configuraciones ya que todas las cabinas disponen de cajetines de
+          conexión -esta pequeña cabina también tiene una con seis entradas, muy útil para usar varios micrófonos en un
+          mismo amplificador- y salidas que dan al patchbay de la mesa principal y pueden ser usadas de forma
+          simlitánea.
+      </div>
+      <!-- Cabinas II fotos-->
+      <div class="col-6"><img class="imgsize2" src="img/cabinaiii2.jpg" alt=""></div>
+      <div class="col-6"><img class="imgsizex" src="img/cabinaiii1.jpg" alt=""></div>
+
+
+    </div>
+  </div>
+
+  <!-- EQUIPAMIENTO-->
+
+  <div id="equipamiento"> </div>
+
+
+  <div class="container">
+    <div class="row ">
+      <h5 class="textobienvenido">Equipamiento</h5>
+      <p class="textobienvenido"> Nuestro estudio está completamente equipado con equipo analógico y digital de primera
+        calidad. Nuestra lista se va ampliando constantemente. Disponemos de varias unidades de varios de los artíclios
+        de la siguiente lista y muchos de ellos han sido modificados para adaptarse mejor al uso de este estudio o
+        construidos expresamente para nosotros (marcados con un asterisco *).
+    </div>
+    <!-- Consolas y Previos-->
+    <h6 class="textoconsola">Consolas y Previos</h6>
+    <div class="container">
+      <div class="row ">
+        <div class="col-6">
+          <li>Trident 78 Custom Built (24 track console/88 input
+            /8 stereo aux console/Lundhal trafos/classic VU)</li>
+          <li>Neve 1272 preamplifier stereo matched pair*</li>
+          <li> Api 512c mic preamplifier stereo pair*</li>
+          <li>Ocean Audio mic pre stereo matched pair*</li>
+          <li>Solid State Logic SSL VHD mic preamplifier</li>
+          <li> Universal Audio 710 Twinfinitty preamplifier</li>
+          <li>Universal Audio 610 Solo preamplifier*</li>
+          <li>Manley Core Reference channel strip</li>
+          <li>Sclily 280 tape amplifier*</li>
+          <li>Electro Harmonix LPB 2ube stereo tube preamp</li>
+          <li>Trident S20 dual channel preamplifier*</li>
+          <li>Trident 88 mic preamplifier*</li>
+          <li>Trident 80B parametric equalizer*</li>
+          <li>Midas 502 mic preamplifier</li>
+          <li>Valley People 400</li>
+        </div>
+        <div class="col-6">
+          <li>Trident 78 Custom Built (24 track console/88 input
+            /8 stereo aux console/Lundhal trafos/classic VU)</li>
+          <li>Neve 1272 preamplifier stereo matched pair*</li>
+          <li> Api 512c mic preamplifier stereo pair*</li>
+          <li>Ocean Audio mic pre stereo matched pair*</li>
+          <li>Solid State Logic SSL VHD mic preamplifier</li>
+          <li> Universal Audio 710 Twinfinitty preamplifier</li>
+          <li>Universal Audio 610 Solo preamplifier*</li>
+          <li>Manley Core Reference channel strip</li>
+          <li>Sclily 280 tape amplifier*</li>
+          <li>Electro Harmonix LPB 2ube stereo tube preamp</li>
+          <li>Trident S20 dual channel preamplifier*</li>
+          <li>Trident 88 mic preamplifier*</li>
+          <li>Trident 80B parametric equalizer*</li>
+          <li>Midas 502 mic preamplifier</li>
+          <li>Valley People 400</li>
+        </div>
       </div>
     </div>
-      
-      
+    <!-- Efectos-->
+    <h6 class="textoconsola">Efectos</h6>
+    <div class="container">
+      <div class="row ">
+        <div class="col-6">
+          <li>SSL Solid State Logic Fusion stereo analogue colour</li>
+          <li>SVA NTI mastering equalizer*</li>
+          <li>Drawmer 1968 modified mastering compressor*</li>
+          <li>Lexicon PCM90 digital reverberator</li>
+          <li>Roland SDD-320 Dimension D</li>
+          <li>Warm Audio WA76 Limiting amplifier linked pair*</li>
+          <li>Radioman Stereo Buscompressor</li>
+          <li>DBX 166 Overeasy Compressor & gate*</li>
+          <li>DBX 160A compressor limiter</li>
+          <li>DBX 160X compressor limiter</li>
+          <li>BCD alt-1s compressor pre matched pair</li>
+          <li>BCD alt-1 automatic compressor preamplifier</li>
+          <li>Sony SRP-L210 compressor expander</li>
+          <li>Klark Teknik DN500 compressor expander limiter</li>
+          <li>Aphex 106 quad compressor</li>
+
+        </div>
+        <div class="col-6">
+          <li>Aphex 106 mkII comp</li>
+          <li>Aphex 108 Easyrider compressor</li>
+          <li>BSS DPR 422 compressor de-esser</li>
+          <li>Warm Audio EQP-WA stereo matched pair*</li>
+          <li>Pioneer SR-202W spring reverb</li>
+          <li>Drawmer DS201 Dual Gate</li>
+          <li>Symetrix 532e equalizer</li>
+          <li>Klark Teknik SQ1G dual graphic equalize</li>
+          <li>Klark Teknic 3rd Dimension</li>
+          <li>Sony R7 Sound Processor</li>
+          <li>Sony HR-MP5 multiprocessor pair*</li>
+          <li>Radial Engineering Phazer</li>
+          <li> Yamaha SPX990 Multieffect processor</li>
+          <li>Yamaha GC2020b compressor & gate</li>
+        </div>
+      </div>
+    </div>
+
+    <!-- Microfonos-->
+    <h6 class="textoconsola">Microfonos</h6>
+    <div class="container">
+      <div class="row ">
+        <div class="col-6">
+          <li>Genelec The Ones coaxial 8341 (2020)</li>
+          <li>Adam A77X (2014)</li>
+          <li> Yamaha NS-10 (1987)</li>
+          <li>Genelec 7350A SAM (2016)</li>
+          <li>Genelec 8320A SAM (2016)</li>
+          <li>Genelec 8010A (2016)</li>
+        </div>
+        <div class="col-6">
+          <li>Avantone Mixcubes (2019)</li>
+          <li>JBL L46 (1982)</li>
+          <li>Fostex 6301B (1991)</li>
+          <li>Akai Cubes (1995)</li>
+          <li> Sony SRS-50 (1986)</li>
+          <li>DB Technologies Basic 100 (2008)</li>
+        </div>
+      </div>
+    </div>
+    <!-- Monitores-->
+    <h6 class="textoconsola">Monitores</h6>
+    <div class="container">
+      <div class="row ">
+        <div class="col-6">
+          <li>Neumann U87</li>
+          <li>Brauner Phantom V</li>
+          <li>Sennheiser MD441</li>
+          <li>Sennheiser MD421 II</li>
+          <li>Sennheiser MD421 N</li>
+          <li>Sennheiser MD408</li>
+          <li>Sennheiser E906</li>
+          <li>Shure SM7B</li>
+          <li>Shure SM57</li>
+          <li>Shure SM57 trafoless</li>
+          <li>Shure SM58</li>
+          <li>Shure Beta 57A</li>
+          <li>Shure 522</li>
+          <li>Shure C606</li>
+          <li>Shure SM46</li>
+          <li>Akg D112</li>
+          <li>Akg C1000s</li>
+          <li>Akg D310S</li>
+        </div>
+        <div class="col-6">
+          <li>Akg 414 XLII</li>
+          <li>Telefunken TD60</li>
+          <li>Grundig GDM 312</li>
+          <li>Audix D6</li>
+          <li>Audix i5</li>
+          <li> Studio Electronics X1T valve matched pair*</li>
+          <li>Oktava ML-52 ribbon Michael Jolly mod*</li>
+          <li>Oktava MK012 matched pair</li>
+          <li>Oktava MD-201</li>
+          <li>Rode NT2</li>
+          <li>Rode M3 matched pair*</li>
+          <li>Moth Sound retrophonic Moth Mic</li>
+          <li>ElectroVoice PL35</li>
+          <li>Akai ADM14</li>
+          <li>Little Bastard Subkick</li>
+          <li>Triton Audio Fethead</li>
+          <li>Takstar PCM-5400</li>
+          <li>Superlux S502</li>
+        </div>
+      </div>
+    </div>
+
+    <!-- soportes de grabacion y reproduccion-->
+    <h6 class="textoconsola">Soportes de Grabacion y Reproduccion</h6>
+    <div class="container">
+      <div class="row ">
+        <div class="col-6">
+          <li>Antelope Orion 32, 64 canales</li>
+          <li>Apple Mac Pro i7 4.2, SSD, 64GB ram</li>
+          <li>Apple MacBook Pro i7 2.3, SSD, 16GB ram</li>
+          <li>Studer A810 reel to reel tape deck</li>
+          <li>Tascam 112B studio cassette deck</li>
+        </div>
+        <div class="col-6">
+          <li>Tascam 320 studio deck duplicator*</li>
+          <li>Tascam DR-40 Linear PCM recorder</li>
+          <li>Sony MDMx4 multitrack recorder/li>
+          <li>Sony MDMx4 mkII multitrack recorder</li>
+          <li>Technics SL-7 vinyl deck</li>
+          <li>Telefunken 4K 55" monitor</li>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ALOJAMIENTO Y ENTORNO-->
+  <div id="alojamiento"> </div>
+
+  <hr>
+  <div class="container">
+    <div class="row ">
+      <h2 class="textobienvenido">Alojamiento y Entorno</h2>
+      <p class="textobienvenido"> Nuestra casa dispone de alojamiento para hasta seis invitados. Dependiendo del número
+        de personas amoldamos el espacio para personalizarlo a cada visita. El espacio de vivienda de uso exclusivo y
+        reservado a invitados mide 60m2. Tiene dormitorios con cama y/o litera, salón con televisión, dos aseos
+        completamente equipados con agua calentada por energía solar, acceso individual a la piscina y jardín con
+        barbacoa y terraza. Todas las habitaciones tienen ventana al exterior y calefacción, así como cristales térmicos
+        que permiten el clima ideal en todas las estaciones del año.
+        <br>
+        <br>
+        La piscina es otra parte esencial de Alamo Shock. 50.000 litros de agua de manantial subterráneo a la que se le
+        ha añadido únicamente sal. No usamos ningún agente químico para mantenerla limpia, es sana y 100% natural. Desde
+        ella se puede disfrutar de unas hermosas vistas al campo, los atardeceres son espectaculares y cuando el tiempo
+        acompaña hay un agradable y relajante paseo, andando o en una de nuestras bicicletas, con kilómetros de campo a
+        tu paso y la sierra de Guadarrama al fondo. El clima en El Álamo es bastante suave en parte gracias a su latitud
+        sureña y su moderada altura, unos 600 metros sobre el nivel del mar.
+        <br>
+        <br>
+        Cerca del estudio tendrás todo tipo de servicios y comercios disponibles: bares, restaurantes, farmacias o
+        tiendas, hay un comercio abierto veinticuatro horas a escasos cien metros de donde estamos. El Álamo es un
+        pueblo muy completo y con mucha vida, las necesidades y servicios básicos están cubiertos aquí
+    </div>
+  </div>
+  <!-- carousel img alojamiento  -->
+
+  <div class="fadess imgsize">
+    <div><img class="imgsize" src="img/alijamiento3.jpg" alt=""></div>
+    <div><img class="imgsize" src="img/alojamiento2.jpg" alt=""></div>
+    <div><img class="imgsize" src="img/alojamiento1.jpg" alt=""></div>
+  </div>
 
 
-        <!-- Cabinas III-->
+  <!-- Cafeteria-->
 
-        <div class="container margenn">
-          <div class="row">
-            <div class="col-12">
-             <h5 class="textocabina">Cabina III</h5>
-              <p class="textobienvenido">La cabina pequeña está diseñada para amplificadores de guitarra. Es especialmente útil para grabar en directo, todos a la vez, y así poder recoger un sonido de guitarra más refinado. Es fácilmente accesible ya que la puerta, inclinable para poder jugar con las reflexiones acústicas, da a la cabina 1. También es donde guardamos todos nuestros micrófonos y pedales.
-               <br>
-                El estudio es muy flexible y permite varias configuraciones ya que todas las cabinas disponen de cajetines de conexión -esta pequeña cabina también tiene una con seis entradas, muy útil para usar varios micrófonos en un mismo amplificador- y salidas que dan al patchbay de la mesa principal y pueden ser usadas de forma simlitánea. </div>
-                <!-- Cabinas II fotos-->
-                <div class="col-6"><img class="imgsize2" src="img/cabinaiii2.jpg" alt=""></div>
-                <div class="col-6"><img class="imgsizex" src="img/cabinaiii1.jpg" alt=""></div>
-                 
-                 
-              </div>
-            </div>
+  <div id="cafeteria"> </div>
 
-             <!-- EQUIPAMIENTO-->
-            <div class="container">
-              <div class="row ">
-                 <h5 class="textobienvenido">Equipamiento</h5>
-                  <p class="textobienvenido"> Nuestro estudio está completamente equipado con equipo analógico y digital de primera calidad. Nuestra lista se va ampliando constantemente. Disponemos de varias unidades de varios de los artíclios de la siguiente lista y muchos de ellos han sido modificados para adaptarse mejor al uso de este estudio o construidos expresamente para nosotros (marcados con un asterisco *).
-                  </div>
-                   <!-- Consolas y Previos-->
-                  <div class="container">
-                    <div class="row ">
-                       <h6 class="textobienvenido">Consolas y Previos</h6>
-                        <p class="textobienvenido"> Nuestro estudio está completamente equipado con equipo analógico y digital de primera calidad. Nuestra lista se va ampliando constantemente. Disponemos de varias unidades de varios de los artíclios de la siguiente lista y muchos de ellos han sido modificados para adaptarse mejor al uso de este estudio o construidos expresamente para nosotros (marcados con un asterisco *).
-                        <div class="col-6">
-                          <li>Trident 78 Custom Built (24 track console/88 input
-                            /8 stereo aux console/Lundhal trafos/classic VU)</li>
-                          <li>Neve 1272 preamplifier stereo matched pair*</li>
-                          <li> Api 512c mic preamplifier stereo pair*</li>
-                          <li>Ocean Audio mic pre stereo matched pair*</li>
-                          <li>Solid State Logic SSL VHD mic preamplifier</li>
-                          <li> Universal Audio 710 Twinfinitty preamplifier</li>
-                          <li>Universal Audio 610 Solo preamplifier*</li>
-                          <li>Manley Core Reference channel strip</li>
-                          <li>Sclily 280 tape amplifier*</li>
-                          <li>Electro Harmonix LPB 2ube stereo tube preamp</li>
-                          <li>Trident S20 dual channel preamplifier*</li>
-                          <li>Trident 88 mic preamplifier*</li>
-                          <li>Trident 80B parametric equalizer*</li>
-                          <li>Midas 502 mic preamplifier</li>
-                          <li>Valley People 400</li>
-                        </div>
-                        <div class="col-6">
-                          <li>Trident 78 Custom Built (24 track console/88 input
-                            /8 stereo aux console/Lundhal trafos/classic VU)</li>
-                          <li>Neve 1272 preamplifier stereo matched pair*</li>
-                          <li> Api 512c mic preamplifier stereo pair*</li>
-                          <li>Ocean Audio mic pre stereo matched pair*</li>
-                          <li>Solid State Logic SSL VHD mic preamplifier</li>
-                          <li> Universal Audio 710 Twinfinitty preamplifier</li>
-                          <li>Universal Audio 610 Solo preamplifier*</li>
-                          <li>Manley Core Reference channel strip</li>
-                          <li>Sclily 280 tape amplifier*</li>
-                          <li>Electro Harmonix LPB 2ube stereo tube preamp</li>
-                          <li>Trident S20 dual channel preamplifier*</li>
-                          <li>Trident 88 mic preamplifier*</li>
-                          <li>Trident 80B parametric equalizer*</li>
-                          <li>Midas 502 mic preamplifier</li>
-                          <li>Valley People 400</li>
-                        </div>
-                        </div>
+  <div class="container margenn">
+    <div class="row">
+      <div class="col-12">
+        <h5 class="textocabina">Cafeteria</h5>
+        <p class="textobienvenido">El sitio al que desembocan las puertas de la sala de control, las cabinas 1 y 2, el
+          acceso al jardín y calle, el taller, la zona de fumadores y la subida a la zona de alojamiento y aseos.
+          <br>
+          Está equipada con una mesa con cómodos asientos, fregadero con agua corriente, lavavajillas, cafetera,
+          microondas y frigorífico. También en ella podremos encontrar la máquina recreativa cargada con juegos
+          clásicos, perfecta para relajarse echándose unas partidas entre toma y toma.
+      </div>
+      <!-- carousel img cafeteria  -->
 
-                  </div>
-	
-	<!-- Bootstrap -->
+      <div class="fadess imgsize">
+        <div><img class="imgsizechica1" src="img/cafeteria1.jpg" alt=""></div>
+        <div><img class="imgsizechica2" src="img/cafeteria2.jpg" alt=""></div>
 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    <!-- carousel -->
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script>
-    
+
+    </div>
+  </div>
+
+  <!-- Cocina-->
+
+  <div id="cocina"> </div>
+
+  <div class="container margenn">
+    <div class="row">
+      <div class="col-12">
+        <h5 class="textocabina">Cocina</h5>
+        <p class="textobienvenido">Los platos se basan en productos frescos de temporada. Tenemos años de experiencia en el sector hostelero y
+           sabemos de la importancia no sólo de la calidad del producto sino de la calidad del servicio y el amor por la cocina. Comer en la
+            misma ubicación que el estudio evita desplazamientos innecesarios con el consiguiente ahorro en tiempo y dinero.
+          <br> 
+          <br>
+          La cocina es amplia, muy luminosa y con espacio para hasta diez invitados aunque en los meses de mejor tiempo aprovechamos la
+           terraza del jardín para comer en el exterior. Creemos que una de las bases de una gran experiencia es alimentarse bien, por 
+           ello tenemos un recetario adecuado para trabajar en condiciones. Desde  principios de 2019 nuestra carta se compone únicamente de sabrosos platos vegetarianos.
+      </div>
+      <!-- carousel img cocina  -->
+
+      <div class="fadess imgsize">
+        <div><img class="imgsizechica1" src="img/cocina.jpg" alt=""></div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+   <!-- taller-->
+
+   <div id="taller"> </div>
+
+   <div class="container margenn">
+     <div class="row">
+       <div class="col-12">
+         <h5 class="textocabina">Taller</h5>
+         <p class="textobienvenido">El sitio para poner a punto los instrumentos.
+            Equipado con todos los utensilios y recambios necesarios para tener tu instrumento perfectamente preparado para grabar.
+       </div>
+       <!-- carousel img taller  -->
+ 
+       <div class="fadess imgsize">
+         <div><img class="imgsizechica1" src="img/taller.jpg" alt=""></div>
+ 
+       </div>
+ 
+ 
+     </div>
+   </div>
+
+   <!-- almacen-->
+
+   <div id="almacen"> </div>
+
+   <div class="container margenn">
+     <div class="row">
+       <div class="col-12">
+         <h5 class="textocabina">Almacén</h5>
+         <p class="textobienvenido">Disponemos de una habitación de unos 10m2 para poder depositar 
+           en ella los estuches, flightcases, fundas, instrumentos y accesorios que no utilices
+            durante la grabación. En este estudio nos gusta mantener todo limpio y  bien ordenado.
+       </div>
+       <!-- carousel img almacen  -->
+ 
+       <div class="fadess imgsize">
+         <div><img class="imgsizechica1" src="img/alamcen.jpg" alt=""></div>
+ 
+       </div>
+ 
+ 
+     </div>
+   </div>
+ 
+   <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap -->
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+  <!-- carousel -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script>
+
     $('.fadess').slick({
-  dots: true,
-  infinite: true,
-  speed: 650,
-  fade: true,
-  autoplay: true,
-  autoplatSpeed: 300,
-  cssEase: 'linear'
-});
+      dots: true,
+      infinite: true,
+      speed: 650,
+      fade: true,
+      autoplay: true,
+      autoplatSpeed: 300,
+      cssEase: 'linear'
+    });
 
-$('.fadess2').slick({
-  lazyLoad: 'ondemand',
-  slidesToShow: 2,
-  slidesToScroll: 2,
-  autoplay: true,
-  autoplatSpeed: 300,
-});
-</script>
-	<!-- Animate On Scroll - AOS -->
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    $('.fadess2').slick({
+      lazyLoad: 'ondemand',
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      autoplay: true,
+      autoplatSpeed: 300,
+    });
+  </script>
+  <!-- Animate On Scroll - AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <!--INICIAR - AOS -->
 
   <script>
-	  AOS.init();
-	</script>
+    AOS.init();
+  </script>
 
 </body>
+
 </html>

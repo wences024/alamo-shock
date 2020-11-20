@@ -72,3 +72,27 @@
 .margenn{
   padding-bottom: 6%;
 }
+.textoconsola{
+  text-align : justify;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: rgb(110, 114, 110);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imgsizechica1{
+  padding-top: 1%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.imgsizechica2{
+  padding-top: 1%;
+  width: 81%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
